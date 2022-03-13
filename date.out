@@ -1,0 +1,776 @@
+Testul 1:
+n = 1000, nmax = 100000
+
+TimSort: 
+0s
+1
+
+MergeSort: 
+0s
+1
+
+ShellSort: 
+0s
+1
+
+RadixSort (Baza 2): 
+0.001s
+1
+
+RadixSort (Baza 10): 
+0s
+1
+
+RadixSort (Baza 16): 
+0s
+1
+
+RadixSort (Baza 2^16): 
+0.012s
+1
+
+CountingSort: 
+0.001s
+1
+
+-------------------------------------------
+
+Testul 2:
+n = 10000, nmax = 100000
+
+TimSort: 
+0.002s
+1
+
+MergeSort: 
+0.003s
+1
+
+ShellSort: 
+0.003s
+1
+
+RadixSort (Baza 2): 
+0.015s
+1
+
+RadixSort (Baza 10): 
+0.004s
+1
+
+RadixSort (Baza 16): 
+0.004s
+1
+
+RadixSort (Baza 2^16): 
+0.015s
+1
+
+CountingSort: 
+0.001s
+1
+
+-------------------------------------------
+
+Testul 3:
+n = 100000, nmax = 100000
+
+TimSort: 
+0.037s
+1
+
+MergeSort: 
+0.045s
+1
+
+ShellSort: 
+0.06s
+1
+
+RadixSort (Baza 2): 
+0.149s
+1
+
+RadixSort (Baza 10): 
+0.054s
+1
+
+RadixSort (Baza 16): 
+0.045s
+1
+
+RadixSort (Baza 2^16): 
+0.058s
+1
+
+CountingSort: 
+0.002s
+1
+
+-------------------------------------------
+
+Testul 4:
+n = 1000000, nmax = 100000
+
+TimSort: 
+0.455s
+1
+
+MergeSort: 
+0.59s
+1
+
+ShellSort: 
+0.931s
+1
+
+RadixSort (Baza 2): 
+1.542s
+1
+
+RadixSort (Baza 10): 
+0.61s
+1
+
+RadixSort (Baza 16): 
+0.454s
+1
+
+RadixSort (Baza 2^16): 
+0.345s
+1
+
+CountingSort: 
+0.014s
+1
+
+-------------------------------------------
+
+Testul 5:
+n = 10000000, nmax = 100000
+
+TimSort: 
+5.184s
+1
+
+MergeSort: 
+6.348s
+1
+
+ShellSort: 
+14.218s
+1
+
+RadixSort (Baza 2): 
+17.942s
+1
+
+RadixSort (Baza 10): 
+6.012s
+1
+
+RadixSort (Baza 16): 
+5.017s
+1
+
+RadixSort (Baza 2^16): 
+2.573s
+1
+
+CountingSort: 
+0.109s
+1
+
+-------------------------------------------
+
+Testul 6:
+n = 100000000, nmax = 100000
+
+TimSort: 
+59.96s
+1
+
+MergeSort: 
+66.517s
+1
+
+ShellSort: 
+219.143s
+1
+
+RadixSort (Baza 2): 
+172.539s
+1
+
+RadixSort (Baza 10): 
+59.344s
+1
+
+RadixSort (Baza 16): 
+47.258s
+1
+
+RadixSort (Baza 2^16): 
+21.259s
+1
+
+CountingSort: 
+1.036s
+1
+
+-------------------------------------------
+
+Testul 7:
+n = 1000000000, nmax = 100000
+
+TimSort: 
+673.521s
+1
+
+MergeSort: 
+738.878s
+1
+
+ShellSort: 
+1031.1s
+1
+
+RadixSort (Baza 2): 
+1573.05s
+1
+
+RadixSort (Baza 10): 
+660.812s
+1
+
+RadixSort (Baza 16): 
+502.248s
+1
+
+RadixSort (Baza 2^16): 
+158.892s
+1
+
+CountingSort: 
+16.653s
+1
+
+-------------------------------------------
+
+Testul 8:
+n = 100000, nmax = 1000
+
+TimSort: 
+0.036s
+1
+
+MergeSort: 
+0.043s
+1
+
+ShellSort: 
+0.044s
+1
+
+RadixSort (Baza 2): 
+0.099s
+1
+
+RadixSort (Baza 10): 
+0.037s
+1
+
+RadixSort (Baza 16): 
+0.029s
+1
+
+RadixSort (Baza 2^16): 
+0.021s
+1
+
+CountingSort: 
+0s
+1
+
+-------------------------------------------
+
+Testul 9:
+n = 100000, nmax = 10000
+
+TimSort: 
+0.034s
+1
+
+MergeSort: 
+0.045s
+1
+
+ShellSort: 
+0.054s
+1
+
+RadixSort (Baza 2): 
+0.122s
+1
+
+RadixSort (Baza 10): 
+0.044s
+1
+
+RadixSort (Baza 16): 
+0.035s
+1
+
+RadixSort (Baza 2^16): 
+0.028s
+1
+
+CountingSort: 
+0.001s
+1
+
+-------------------------------------------
+
+Testul 10:
+n = 100000, nmax = 100000
+
+TimSort: 
+0.035s
+1
+
+MergeSort: 
+0.045s
+1
+
+ShellSort: 
+0.057s
+1
+
+RadixSort (Baza 2): 
+0.148s
+1
+
+RadixSort (Baza 10): 
+0.045s
+1
+
+RadixSort (Baza 16): 
+0.043s
+1
+
+RadixSort (Baza 2^16): 
+0.059s
+1
+
+CountingSort: 
+0.002s
+1
+
+-------------------------------------------
+
+Testul 11:
+n = 100000, nmax = 1000000
+
+TimSort: 
+0.035s
+1
+
+MergeSort: 
+0.044s
+1
+
+ShellSort: 
+0.057s
+1
+
+RadixSort (Baza 2): 
+0.172s
+1
+
+RadixSort (Baza 10): 
+0.054s
+1
+
+RadixSort (Baza 16): 
+0.043s
+1
+
+RadixSort (Baza 2^16): 
+0.056s
+1
+
+CountingSort: 
+0.017s
+1
+
+-------------------------------------------
+
+Testul 12:
+n = 100000, nmax = 10000000
+
+TimSort: 
+0.035s
+1
+
+MergeSort: 
+0.044s
+1
+
+ShellSort: 
+0.057s
+1
+
+RadixSort (Baza 2): 
+0.209s
+1
+
+RadixSort (Baza 10): 
+0.064s
+1
+
+RadixSort (Baza 16): 
+0.054s
+1
+
+RadixSort (Baza 2^16): 
+0.062s
+1
+
+CountingSort: 
+0.241s
+1
+
+-------------------------------------------
+
+Testul 13:
+n = 100000, nmax = 100000000
+
+TimSort: 
+0.034s
+1
+
+MergeSort: 
+0.045s
+1
+
+ShellSort: 
+0.055s
+1
+
+RadixSort (Baza 2): 
+0.234s
+1
+
+RadixSort (Baza 10): 
+0.074s
+1
+
+RadixSort (Baza 16): 
+0.062s
+1
+
+RadixSort (Baza 2^16): 
+0.064s
+1
+
+CountingSort: 
+2.547s
+1
+
+-------------------------------------------
+
+Testul 14:
+n = 100000, nmax = 1000000000
+
+TimSort: 
+0.036s
+1
+
+MergeSort: 
+0.045s
+1
+
+ShellSort: 
+0.059s
+1
+
+RadixSort (Baza 2): 
+0.259s
+1
+
+RadixSort (Baza 10): 
+0.081s
+1
+
+RadixSort (Baza 16): 
+0.072s
+1
+
+RadixSort (Baza 2^16): 
+0.077s
+1
+
+CountingSort: 
+19.315s
+1
+
+-------------------------------------------
+
+Testul 15:
+n = 100000, nmax = 10000000000
+
+TimSort: 
+0.034s
+1
+
+MergeSort: 
+0.046s
+1
+
+ShellSort: 
+0.056s
+1
+
+RadixSort (Baza 2): 
+0.293s
+1
+
+RadixSort (Baza 10): 
+0.091s
+1
+
+RadixSort (Baza 16): 
+0.08s
+1
+
+RadixSort (Baza 2^16): 
+0.102s
+1
+
+CountingSort: 
+140.088s
+0
+
+-------------------------------------------
+
+Testul 16:
+n = 1000, nmax = 1000
+
+TimSort: 
+0s
+1
+
+MergeSort: 
+0s
+1
+
+ShellSort: 
+0s
+1
+
+RadixSort (Baza 2): 
+0.001s
+1
+
+RadixSort (Baza 10): 
+0s
+1
+
+RadixSort (Baza 16): 
+0s
+1
+
+RadixSort (Baza 2^16): 
+0.006s
+1
+
+CountingSort: 
+0s
+1
+
+-------------------------------------------
+
+Testul 17:
+n = 10000, nmax = 10000
+
+TimSort: 
+0.002s
+1
+
+MergeSort: 
+0.003s
+1
+
+ShellSort: 
+0.003s
+1
+
+RadixSort (Baza 2): 
+0.014s
+1
+
+RadixSort (Baza 10): 
+0.003s
+1
+
+RadixSort (Baza 16): 
+0.003s
+1
+
+RadixSort (Baza 2^16): 
+0.008s
+1
+
+CountingSort: 
+0s
+1
+
+-------------------------------------------
+
+Testul 18:
+n = 100000, nmax = 100000
+
+TimSort: 
+0.036s
+1
+
+MergeSort: 
+0.045s
+1
+
+ShellSort: 
+0.057s
+1
+
+RadixSort (Baza 2): 
+0.152s
+1
+
+RadixSort (Baza 10): 
+0.046s
+1
+
+RadixSort (Baza 16): 
+0.045s
+1
+
+RadixSort (Baza 2^16): 
+0.061s
+1
+
+CountingSort: 
+0.002s
+1
+
+-------------------------------------------
+
+Testul 19:
+n = 1000000, nmax = 1000000
+
+TimSort: 
+0.455s
+1
+
+MergeSort: 
+0.541s
+1
+
+ShellSort: 
+0.888s
+1
+
+RadixSort (Baza 2): 
+1.777s
+1
+
+RadixSort (Baza 10): 
+0.563s
+1
+
+RadixSort (Baza 16): 
+0.458s
+1
+
+RadixSort (Baza 2^16): 
+0.343s
+1
+
+CountingSort: 
+0.035s
+1
+
+-------------------------------------------
+
+Testul 20:
+n = 10000000, nmax = 10000000
+
+TimSort: 
+5.302s
+1
+
+MergeSort: 
+6.367s
+1
+
+ShellSort: 
+14.564s
+1
+
+RadixSort (Baza 2): 
+24.102s
+1
+
+RadixSort (Baza 10): 
+6.448s
+1
+
+RadixSort (Baza 16): 
+5.964s
+1
+
+RadixSort (Baza 2^16): 
+2.523s
+1
+
+CountingSort: 
+0.528s
+1
+
+-------------------------------------------
+
+Testul 21:
+n = 100000000, nmax = 100000000
+
+TimSort: 
+61.71s
+1
+
+MergeSort: 
+71.407s
+1
+
+ShellSort: 
+244.308s
+1
+
+RadixSort (Baza 2): 
+266.247s
+1
+
+RadixSort (Baza 10): 
+77.226s
+1
+
+RadixSort (Baza 16): 
+65.315s
+1
+
+RadixSort (Baza 2^16): 
+21.874s
+1
+
+CountingSort: 
+7.831s
+1
+
+-------------------------------------------
